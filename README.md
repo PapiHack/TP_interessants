@@ -9,9 +9,9 @@ Consulter l'aide
 
 java CaesarCode ou java CaesarCode -h ou java CaesarCode --help
 
-java CaesarCode -c <messageAChiffrer> [-k] [clé]
+java CaesarCode -c messageAChiffrer [-k] [clé]
   
-java CaesarCode -d <messageADechiffrer> [-k] [clé]
+java CaesarCode -d messageADechiffrer [-k] [clé]
 
 L'option -c permet de spécifier le message à chiffrer et -k permet de donner la clé de chiffrement. Par défaut k = 13 si elle n'est pas spécifié. Idem pour le déchiffrement
 
