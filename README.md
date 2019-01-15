@@ -14,7 +14,7 @@ java CaesarCode -d <messageADechiffrer> [-k] [clé]
 L'option -c permet de spécifier le message à chiffrer et -k permet de donner la clé de chiffrement. Par défaut k = 13 si elle n'est pas
 spécifié. Idem pour le déchiffrement
 
-# TestConjugaisonIndicatif
+# TestConjugaisonIndicatif.java
 
 java TestConjugaisonIndicatif permet de conjuguer un verbe passé en argument au temps spécifié en argument.
 Il utilise la classe ConjugaisonIndicatif qui gére les temps (passé, présent, futur, imparfait) et le verbe à conjuguer.
